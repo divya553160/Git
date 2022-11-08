@@ -14,5 +14,7 @@ $ git show commit-id :- to view the log of particular commit (long information)
 
 $ git show :- latest commit information
 
+$ git log > log.txt or git log >> log.txt :- to save log history into a text file
+
 
 
