@@ -12,4 +12,10 @@
 
  $ git commit -a -m "message" :- to commit modified files without adding to the staging area
 
- $ git rm --cached <filename> :- to delete the files in staging area
+ $ git rm --cached <filename> :- to delete the files in staging area / to untrack the files
+ 
+ $ git reset HEAD filename or git restore --staged filename :- stages files are unstaged
+ 
+ $ git checkout -- index2.html  OR  $ git restore :- permanently delete the changes
+ 
+ $ git revert cid :- file back to the working dir or local repo
