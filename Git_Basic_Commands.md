@@ -11,8 +11,10 @@
  $ .gitignore :- create a file .gitignore and add filenames/extensions which you don't want to track
 
  $ git commit -a -m "message" :- to commit modified files without adding to the staging area
+ 
+ $ git rm file1 :- to delete from working dir and local repo
 
- $ git rm --cached <filename> :- to delete the files in staging area / to untrack the files
+ $ git rm --cached <filename> :- to delete the files in staging area / to untrack the files( delete on local repo only)
  
  $ git reset HEAD filename or git restore --staged filename :- stages files are unstaged
  
