@@ -10,5 +10,7 @@ git reset --mixed commit-id :- move the changes to the working directory
 
 git cherry-pick commit-id :- to merge particular commits
 
+git show commit-id :- to view the log of particular commit
+
 
 
