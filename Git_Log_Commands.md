@@ -16,5 +16,7 @@ $ git show :- latest commit information
 
 $ git log > log.txt or git log >> log.txt :- to save log history into a text file
 
+$ git diff cid1 cid2 :- to view the differences of two commits
+
 
 
