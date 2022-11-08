@@ -23,4 +23,8 @@
 # To create a system config :
 
      $ git config --system user.name "Hardhik Pandya"
+     
+# To view the config list :
+
+     $ git config --list
   
