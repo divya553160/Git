@@ -1,4 +1,14 @@
-git log : shows the history of all the commits
+git log :- shows the history of all the commits
 
-git log --oneline : single line history of the commits
+git log --oneline :- single line history of the commits
+
+git reset --hard commit-id :- Delete the commits permanently,cannot gain back
+
+git reset --soft commit-id :- move the changes to the staging area
+
+git reset --mixed commit-id :- move the changes to the working directory
+
+git cherry-pick commit-id :- to merge particular commits
+
+
 
